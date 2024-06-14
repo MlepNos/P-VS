@@ -8,6 +8,7 @@ const bcrypt = require("bcrypt");
 // env
 require("dotenv").config();
 
+console.log(process.env.USER);
 // configure db connection
 const config = {
   user: process.env.USER,

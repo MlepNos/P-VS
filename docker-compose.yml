@@ -1,0 +1,26 @@
+version: "3.8"
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    environment:
+      - USER=${USER}
+      - PASSWORD=${PASSWORD}
+      - SERVER=${SERVER}
+      - DATABASE=${DATABASE}
+      - PORT=${PORT}
+    ports:
+      - "3003:3003"
+    depends_on:
+      - frontend
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+
+volumes:
+  sqlserverdata:
