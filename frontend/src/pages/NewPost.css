@@ -1,0 +1,73 @@
+.container {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #1e1e1e;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%; /* Ensure the inputs take the full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: center;
+  width: 100%; /* Ensure the button takes the full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.titel {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
