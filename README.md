@@ -22,7 +22,7 @@ The app is a social media platform that allows users to post messages, view post
 
 ## Installation
 
-First of all you need to pull **sqldb** from the user **mlepnos** in docker.
+First of all you need to pull **sqldb** from the user **mlepnos** in docker.<br/>
 ![Docker Image](images/image.png)
 
 To start the app you need to `docker-compose up` in the root of the project.
