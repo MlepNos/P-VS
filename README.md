@@ -34,7 +34,7 @@ docker-compose up
 Now you need to run `npm install` or `yarn install` to install the dependencies.
 
 To start the application you need to start the two containers in docker.
-Then you need to visit the site [Twix](http://localhost:3000/login)
+Then you need to visit the localhost:3000/login in the browser.
 
 ## Usage
 
